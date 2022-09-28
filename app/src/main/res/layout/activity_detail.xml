@@ -104,12 +104,13 @@
 
 
         <TextView
+            android:id="@+id/tvLokasi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:textSize="18sp"
+            android:text="@string/lokasi"
             android:textColor="@color/black"
-            android:text="@string/lokasi" />
+            android:textSize="18sp" />
         <Button
             android:id="@+id/btnLokasi"
             android:layout_width="wrap_content"
